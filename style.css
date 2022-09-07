@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png) ;
+  /* opacity: 0.5; */
+  background-size: cover;
+  height: 1000px;
+  width: 1500px;
+
+  /* backdrop-filter: grayscale(100%); */
+}
+
+body::after {
+  content: "";
+  background-color: #000427;
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 1000px;
+}
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label="navbar"]{
+  padding: 50px 130px;
+  padding-bottom: 10px;
+}
+
+.navbar div{
+  display: inline;
+}
+
+.navbar img{
+  width: 150px;
+}
+
+.list{
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+
+.list li{
+  display: inline;
+  margin: 30px;
+  color: #FFC233;
+  font-size: 20px;
+}
+
+.button-small{
+  position: absolute;
+  right: 120px;
+  top: 43px;
+  padding: 7px 30px;
+  background-color: #FF505F;
+  border: solid #FF505F;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label="hero"]{
+  margin: 25px 300px;
+  text-align: center;
+
+  position: relative;
+  top: 80px;
+}
+
+h1{
+  font-size: 130px;
+  color: #FFC233;
+  text-align: center;
+  line-height: 120px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  width: 1300px;
+  position: relative;
+  right: 200px;
+}
+
+.button-large{
+  /* position: relative; */
+  background-color: #FF505F;
+  color: #FFFFFF;
+  border: solid #FF505F;
+  padding: 20px 40px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+.bottom img{
+  position: fixed;
+  bottom: 50px;
+  /* top: 50px; */
+  right: 100px;
+  width: 150px;
+}
