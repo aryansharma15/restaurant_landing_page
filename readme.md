@@ -3,7 +3,7 @@
 This project required basic HTML & CSS. Lending colour to the background image was a relatively new concept. It was achieved using pseudo-selector `::before` on the body
 
 <br>
-**
+***
 ## [Project Link](https://aryansharma15.github.io/restaurant_landing_page/)
 
 ![Site View](./restaurant_site_img.png)
